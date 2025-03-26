@@ -1,0 +1,25 @@
+<!-- 
+JSTL (JavaServer Pages Standard Tag Library) is a collection of useful tags 
+that encapsulate core functionality common to many JSP applications. 
+It simplifies the development of JSP pages by providing tags for common 
+tasks such as iteration, conditionals, and formatting.
+
+Key Features of JSTL:
+
+1. Core Tags: These tags provide basic functionality such as iteration 
+   and conditionals.
+   - <c:forEach>: Iterates over a collection.
+   - <c:if>: Conditional rendering.
+   - <c:choose>, <c:when>, <c:otherwise>: Similar to switch-case statements.
+  
+2. Formatting Tags: These tags help in formatting numbers, dates, and messages.
+   - <fmt:formatDate>: Formats a date.
+   - <fmt:formatNumber>: Formats a number.
+
+3. SQL Tags: These tags allow you to interact with databases directly from 
+   JSP (though it's generally recommended to use a more MVC-oriented approach).
+   - <sql:query>: Executes a SQL query.
+  
+4. XML Tags: These tags provide support for XML processing.
+   - <x:out>: Outputs XML content.
+ -->
